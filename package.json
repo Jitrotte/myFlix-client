@@ -4,7 +4,9 @@
   "description": "",
   "source": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel-build"
   },
   "repository": {
     "type": "git",
@@ -25,5 +27,6 @@
     "@parcel/transformer-sass": "^2.0.0-rc.0",
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1"
+    
   }
 }
